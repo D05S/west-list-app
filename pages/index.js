@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Image from 'next/image'
-import Logo from "../public/img/Logo_Ver0.1.png"
+import Image from 'next/image';
+import Logo from "../public/img/Logo_Ver0.1.png";
 
 
 function WelcomePage() {

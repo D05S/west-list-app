@@ -1,5 +1,12 @@
+body{
+    display: none;
+}
 
 @media screen and (max-width: 400px)  {
+    body {
+        display: contents;
+    }
+
     .welcome-bg{
         background: #7B8FA1;
     }
@@ -15,6 +22,31 @@
         border: none;
         border-radius: 20em;
     }
+
+    .secondary-logo{
+        margin: 1em 1em 1em 80%;
+
+    }
+
+    .song-button{
+        background-color: #FAD6A5;
+        border: none;
+        border-radius: 20em;
+        padding: .5em .2em;
+        margin: .6em 0 0 1em;
+        width: 100%;
+        max-width: 15em;
+        
+    }
+
+    .space{
+        padding-top: 5em;
+    }
+
+    /* .list{
+        background-color: #CFB997;
+        padding-bottom: 50em;
+    } */
 
    
 }
