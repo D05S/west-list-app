@@ -2,13 +2,16 @@ body{
     display: none;
 }
 
-@media screen and (max-width: 400px)  {
+@media screen and (max-width: 420px)  {
     body {
         display: contents;
     }
 
     .welcome-bg{
         background: #7B8FA1;
+        height: 100%;
+        width: 100%;
+        position: fixed;
     }
 
     .welcome-logo{
@@ -16,8 +19,11 @@ body{
     }
 
     .enter-button{
-        margin: 80% 0 12em 30%;
-        padding: 1em 3em;
+        position: fixed;
+        bottom: 10em;
+        left: 20%;
+        right: 20%;
+        padding: 1.5em 5em;
         background-color: #FAD6A5;
         border: none;
         border-radius: 20em;
@@ -45,8 +51,20 @@ body{
 
     /* .list{
         background-color: #CFB997;
-        padding-bottom: 50em;
+        padding-bottom: 5em;
     } */
+
+    /* .bottom-position{
+        position: fixed;
+        bottom: 0px;
+        padding: 3em ;
+        border: solid;
+        left: 0px;
+        right: 0px;
+        background-color: #FAD6A5;
+        z-index: 2;
+        filter: blur(10px);
+    }  */
 
    
 }
