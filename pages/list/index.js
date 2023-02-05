@@ -1,7 +1,7 @@
 
 import Image from 'next/image';
 import Logo from '/public/img/Logo_Ver0.1.png';
-import ListTemplate from './linktemplate';
+import ListTemplate from '../../template/linktemplate';
 import songs from "/api/data";
 
 
