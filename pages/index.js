@@ -13,11 +13,9 @@ function WelcomePage() {
                 width={200}
                 height={200}
             />
-            
-                <Link href="/list">
-                    <button className="enter-button">ENTER</button>
-                </Link>
-            
+            <Link href="/list">
+                <button className="enter-button">ENTER</button>
+            </Link>
         </div>
     );
 }

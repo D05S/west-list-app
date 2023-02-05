@@ -29,9 +29,6 @@ console.log(songs);
             <div className='space'>
                 {songs.map(listOfSongs)}
             </div>
-            {/* <div className='bottom-position'>
-                <p></p>
-            </div> */}
         </div>
     )
 }
