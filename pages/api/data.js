@@ -40,12 +40,8 @@ const songs=[
             "id": 8,
             "name": "Chvalte Hospodina z nebes",
             "link": "https://zpevnik.proscholy.cz/pisen/281/chvalte-hospodina-z-nebes"
-        },
-        {
-            "id": 9,
-            "name": "Bůh je síla má",
-            "link": "https://zpevnik.proscholy.cz/pisen/61/buh-je-sila-ma"
-         }
+        }
+      
     ]
 
 export default songs;

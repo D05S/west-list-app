@@ -5,6 +5,15 @@ body{
 @media screen and (max-width: 420px)  {
     body {
         display: contents;
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        font-weight: 600;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        font-weight: 100;
     }
 
     .welcome-bg{
@@ -20,10 +29,10 @@ body{
 
     .enter-button{
         position: fixed;
-        bottom: 10em;
+        bottom: 10%;
         left: 20%;
         right: 20%;
-        padding: 2em 5em;
+        padding: 1em 4em;
         background-color: #FAD6A5;
         border: none;
         border-radius: 20em;
@@ -38,8 +47,8 @@ body{
         background-color: #FAD6A5;
         border: none;
         border-radius: 20em;
-        padding: .5em .2em;
-        margin: .6em 0 0 1em;
+        padding: .5em .4em;
+        margin: .6em 0 0 2em;
         width: 100%;
         max-width: 15em;
         
@@ -48,4 +57,15 @@ body{
     .space{
         padding-top: 5em;
     }   
+
+    .bar{
+        position: fixed;
+        z-index: 2;
+        background-color: #7B8FA1;
+        bottom:0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 1em 0;
+    }
 }
