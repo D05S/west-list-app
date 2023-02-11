@@ -1,10 +1,10 @@
 import connectMongo from '../../../utils/connectMongo';
 import theWest from '../../../models/thewestmodel';
 
-/**
- * @param {import('next').NextApiRequest} req
- * @param {import('next').NextApiResponse} res
- */
+// /**
+//  * @param {import('next').NextApiRequest} req
+//  * @param {import('next').NextApiResponse} res
+//  */
 export default async function addTest(req, res) {
   try {
     console.log('CONNECTING TO MONGO');
